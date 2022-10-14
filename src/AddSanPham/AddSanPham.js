@@ -33,7 +33,7 @@ const AddSanPham = () => {
         listSanpham.push(dataNewSanpham)
         localStorage.setItem('listsanpham', JSON.stringify(listSanpham));
     }
-
+// base string
     const getUrlImage = (e) => {
         let reader = new FileReader();
         reader.readAsDataURL(e.target.files[0]);
